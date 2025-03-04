@@ -4,8 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dev-5-assi</title>
-</head>
-<body>
-    
-</body>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-100 p-4">
+
+      <div class="max-w-7xl mx-auto">
+          <div class="flex justify-between items-center mb-4">
+              <h1 class="text-2xl font-semibold cursor-pointer header-title" id="headerTitle">DevBoard</h1>
+              <div class="badge badge-primary">23</div>
+          </div>
+  
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="bg-white rounded-lg p-4 shadow">
+                  <div class="flex items-center mb-4">
+                      <input type="checkbox" class="checkbox checkbox-primary mr-2" checked />
+                      <span class="font-semibold">Task Assigned</span>
+                      <span class="ml-2 text-gray-500">6</span>
+                  </div>
+                  <div class="flex items-center mb-4">
+                      <div class="avatar placeholder mr-2">
+                          <div class="bg-neutral-focus text-neutral-content rounded-full w-12">
+                              <span class="text-2xl">📝</span>
+                          </div>
+                      </div>
+                      <div>
+                          <h2 class="font-semibold">Discover Something New Today!</h2>
+                          <p class="text-sm text-gray-500">Tue Feb 25 2025</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-span-2 bg-white rounded-lg p-4 shadow">
+                  <div class="flex justify-between items-center mb-4">
+                      <h2 class="font-semibold">Activity Log</h2>
+                      <button class="btn btn-sm btn-outline btn-primary" id="clearHistoryBtn">Clear History</button>
+                  </div>
+  
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Shop Ease</h2>
+                              <p>Fix Mobile Button Issue</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 21 March 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-0">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Soft Pay</h2>
+                              <p>Add Pay Success Modal</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 25 March 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-1">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Meta</h2>
+                              <p>Add new reaction</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 31 March 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-2">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Programming Hero</h2>
+                              <p>Fix Video Loading Issue</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 21 March 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-3">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Google LLC</h2>
+                              <p>Integrate AI search</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 01 April 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-4">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card bg-base-100 shadow">
+                          <div class="card-body">
+                              <h2 class="card-title">Polygon Tech</h2>
+                              <p>Review Ami Probashi Site</p>
+                              <p class="text-sm">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                              <div class="card-actions justify-between items-center mt-4">
+                                  <span class="text-sm text-gray-500">Deadline: 5 May 2025</span>
+                                  <button class="btn btn-sm btn-primary complete-btn-5">Completed</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  <script src="./js fol/ja.js"></script>
+</body>  
+ 
 </html>
